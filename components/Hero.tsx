@@ -11,7 +11,7 @@ const Hero = () => {
         priority
       />
 
-      <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-[#1E1E1E80] to-[#002B3A00]"></div>
 
       <div className="absolute bottom-0 left-0 p-10 md:p-16 lg:p-40 z-10 text-white text-left flex flex-col items-start justify-center">
         <div className="max-w-4xl w-full">
