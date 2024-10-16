@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSwipeable } from "react-swipeable";
@@ -40,15 +40,27 @@ const InsightCard = ({
 
 const InsightsSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [cardsPerPage, setCardsPerPage] = useState(3); // Default value
 
-  // Calculate cardsPerPage based on screen size
-  const getCardsPerPage = () => {
-    if (window.innerWidth < 768) return 1;
-    if (window.innerWidth < 1024) return 2;
-    return 3;
-  };
+  useEffect(() => {
+    const getCardsPerPage = () => {
+      if (window.innerWidth < 768) return 1;
+      if (window.innerWidth < 1024) return 2;
+      return 3;
+    };
 
-  const cardsPerPage = getCardsPerPage();
+    setCardsPerPage(getCardsPerPage());
+
+    const handleResize = () => {
+      setCardsPerPage(getCardsPerPage());
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleNext = () => {
     if (currentIndex + cardsPerPage < INSIGHTS_DATA.length) {
