@@ -71,3 +71,44 @@ export const SERVICE_DATA = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis. Pellentesque iaculis elit lorem, et varius ipsum dictum a. Etiam congue non sem et efficitur. Donec in dolor nec tellus iaculis sagittis. Sed sit amet aliquam augue.",
   },
 ];
+
+// INSIGHTS
+export const INSIGHTS_DATA = [
+  {
+    id: 1,
+    image: "/images/collaborating.png",
+    date: "21 March 2023",
+    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+  },
+  {
+    id: 2,
+    image: "/images/teamplayers.png",
+    date: "21 March 2023",
+    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+  },
+  {
+    id: 3,
+    image: "/images/worktable.png",
+    date: "21 March 2023",
+    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+  },
+  {
+
+    id: 4,
+    image: "/images/meeting.jpeg",
+    date: "21 March 2023",
+    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+  },
+  {
+    id: 5,
+    image: "/images/insideoffice.jpeg",
+    date: "21 March 2023",
+    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+  },
+  {
+    id: 6,
+    image: "/images/sciencelab.jpeg",
+    date: "21 March 2023",
+    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+  },
+];
