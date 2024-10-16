@@ -1,3 +1,5 @@
+import { Facility } from "@/types";
+
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "About Us" },
@@ -6,4 +8,36 @@ export const NAV_LINKS = [
   { href: "/", key: "portfolios ", label: "Portfolios " },
   { href: "/", key: "testimonials", label: "Testimonials" },
   { href: "/", key: "insights", label: "Insights" },
+];
+
+//FACILITIES
+export const FACILITIES_DATA: Facility[] = [
+  {
+    id: 2,
+    title: "Consectetur adipiscing elit",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. ",
+    image: "/images/meeting.jpeg",
+  },
+  {
+    id: 3,
+    title: "Consectetur adipiscing elit",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. ",
+    image: "/images/insideoffice.jpeg",
+  },
+  {
+    id: 1,
+    title: "Consectetur adipiscing elit",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. ",
+    image: "/images/topview.jpeg",
+  },
+  {
+    id: 4,
+    title: "Consectetur adipiscing elit",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. ",
+    image: "/images/sciencelab.jpeg",
+  },
 ];
