@@ -41,3 +41,11 @@ export const FACILITIES_DATA: Facility[] = [
     image: "/images/sciencelab.jpeg",
   },
 ];
+
+//STATS
+export const STATS = [
+  { id: 1, label: "Years of Success", value: 8, hasPlus: false },
+  { id: 2, label: "Members", value: 200, hasPlus: true },
+  { id: 3, label: "All Over The USA", value: 155, hasPlus: true },
+  { id: 4, label: "Satisfied Clients", value: 200000, hasPlus: false },
+];
