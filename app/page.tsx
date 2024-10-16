@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import FacilitiesSection from "@/components/FacilitiesSection";
 import FacultySection from "@/components/FacultySection";
 import Hero from "@/components/Hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <ServiceSection />
       <FacultySection />
       <InsightsSection />
+      <Contact />
     </>
   );
 }
