@@ -2,15 +2,15 @@ import VideoPlayer from "@/components/VideoPlayer";
 
 const VideoSection = () => {
   return (
-    <section className="mx-auto max-w-[1440px] my-[100px] px-4 py-10">
+    <section className="mx-auto max-w-[1440px] my-[60px] sm:my-[100px] px-4 py-10">
       <VideoPlayer
         thumbnail="/images/video-thumbnail.jpeg"
         videoSrc="https://www.youtube.com/embed/yB4iJwxS-NE"
         title="Lorem ipsum dolor sit amet."
         content={
           <>
-            <p className="text-lg">Sanchez Alexis</p>
-            <p className="text-sm">CEO & Founder of Demo</p>
+            <p className="sm:text-lg">Sanchez Alexis</p>
+            <p className="text-xs sm:text-sm">CEO & Founder of Demo</p>
           </>
         }
       />

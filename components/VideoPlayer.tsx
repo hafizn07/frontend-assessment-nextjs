@@ -24,7 +24,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
   };
 
   return (
-    <div className="relative bg-black overflow-hidden rounded-[35px] w-full h-[648px]">
+    <div className="relative bg-black overflow-hidden rounded-[35px] w-full h-[60vw] max-h-[648px]">
       {!isVideoPlaying ? (
         <>
           {/* Default Thumbnail with Gradient */}
@@ -39,15 +39,15 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
           </div>
 
           {/* Play Button and Text */}
-          <div className="absolute left-[100px] bottom-[80px] p-6 text-white flex flex-col gap-9">
+          <div className="absolute left-[5%] bottom-[5%] p-6 text-white flex flex-col gap-2 sm:gap-9">
             <button
               onClick={handlePlayVideo}
-              className="w-[80px] h-[80px] bg-slate-50 p-3 rounded-full flex items-center justify-center hover:bg-white transition duration-300"
+              className="w-[60px] h-[60px] bg-slate-50 p-2 rounded-full flex items-center justify-center hover:bg-white transition duration-300"
             >
-              <FaPlay size={27} color="black" />
+              <FaPlay size={24} color="black" />
             </button>
 
-            <p className="text-4xl font-bold">{title}</p>
+            <p className="text-lg sm:text-2xl font-bold">{title}</p>
             <div>{content}</div>
           </div>
         </>

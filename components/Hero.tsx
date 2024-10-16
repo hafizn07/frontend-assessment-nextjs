@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="relative h-[889px] bg-cover bg-center">
+    <section className="relative h-[580px] md:h-[889px] bg-cover bg-center">
       <Image
         src="/images/heroBanner.jpeg"
         alt="Hero Banner"

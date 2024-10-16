@@ -31,11 +31,11 @@ const FacilityCard = ({ facility }: { facility: Facility }) => {
 const FacilitiesSection = () => {
   return (
     <section className="bg-[#F2F2F2] py-10 px-4">
-      <div className="mx-auto max-w-[1440px] my-24">
+      <div className="mx-auto max-w-[1440px] my-[60px] sm:my-24">
         <h2 className="text-5xl text-left mb-12 max-w-xl">
-          Lorem ipsum dolor sit amet, consectetur{" "}
+          Lorem ipsum dolor sit amet, consectetur
         </h2>
-        <div className="columns-2 gap-4 lg:gap-6">
+        <div className="column-1 sm:columns-2 gap-4 lg:gap-6">
           <div className="space-y-6">
             {FACILITIES_DATA.map((facility) => (
               <FacilityCard key={facility.id} facility={facility} />
