@@ -4,3 +4,10 @@ export interface Facility {
   description: string;
   image: string;
 }
+export interface Faculty {
+  id: number;
+  title: string;
+  subTitle: string;
+  description: string;
+  image: string;
+}

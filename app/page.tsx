@@ -1,4 +1,5 @@
 import FacilitiesSection from "@/components/FacilitiesSection";
+import FacultySection from "@/components/FacultySection";
 import Hero from "@/components/Hero";
 import InsightsSection from "@/components/InsightsSection";
 import ServiceSection from "@/components/ServiceSection";
@@ -13,6 +14,7 @@ export default function Home() {
       <FacilitiesSection />
       <StatsSection />
       <ServiceSection />
+      <FacultySection />
       <InsightsSection />
     </>
   );

@@ -78,37 +78,70 @@ export const INSIGHTS_DATA = [
     id: 1,
     image: "/images/collaborating.png",
     date: "21 March 2023",
-    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+    title:
+      "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
   },
   {
     id: 2,
     image: "/images/teamplayers.png",
     date: "21 March 2023",
-    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+    title:
+      "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
   },
   {
     id: 3,
     image: "/images/worktable.png",
     date: "21 March 2023",
-    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+    title:
+      "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
   },
   {
-
     id: 4,
     image: "/images/meeting.jpeg",
     date: "21 March 2023",
-    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+    title:
+      "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
   },
   {
     id: 5,
     image: "/images/insideoffice.jpeg",
     date: "21 March 2023",
-    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+    title:
+      "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
   },
   {
     id: 6,
     image: "/images/sciencelab.jpeg",
     date: "21 March 2023",
-    title: "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+    title:
+      "dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis",
+  },
+];
+
+// FACULTY
+export const FACULTY_DATA = [
+  {
+    id: 1,
+    title: "Lorem Ipsum?",
+    subTitle: "Lorem Ipsum",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "/images/student.png",
+  },
+  {
+    id: 2,
+    title: "Lorem Ipsum?",
+    subTitle: "Lorem Ipsum",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "/images/teamplayers.png",
+  },
+  {
+    id: 3,
+    title: "Lorem Ipsum?",
+    subTitle: "Lorem Ipsum",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "/images/worktable.png",
   },
 ];
